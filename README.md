@@ -2,7 +2,7 @@
 
 Modern Markdown note-taking web app with folders, dark/light mode, live preview, and export to PDF/MD.
 
-## Screenshots
+## 📸 Screenshots
 
 ![Screenshot 1](https://github.com/SyedShaheerHussain/markdown-note-app/blob/1fec7c8a1ac827d106eb4096a2b8a7c7975caaf7/markdown-note-app/sceenshots/Screenshot%20(51).png)
 
