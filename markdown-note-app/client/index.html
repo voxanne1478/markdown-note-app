@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Markdown Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<div class="app">
+
+  <aside class="sidebar">
+    <h2>📁 Folders</h2>
+    <ul id="folders"></ul>
+    <button onclick="addFolder()">+ New Folder</button>
+    <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+  </aside>
+
+  <main class="content">
+    <input id="noteTitle" placeholder="Note title" />
+
+    <div class="editor-preview">
+      <textarea id="editor" placeholder="Write markdown here..."></textarea>
+      <div id="preview"></div>
+    </div>
+
+    <div class="actions">
+      <button onclick="saveNote()">Save</button>
+      <button onclick="downloadMD()">Download .md</button>
+      <button onclick="exportNotebook()">Export Notebook PDF</button>
+    </div>
+  </main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

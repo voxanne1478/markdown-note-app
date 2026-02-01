@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 🚫 BODY NEVER SCROLLS */
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+}
+
+/* =======================
+   THEME VARIABLES
+======================= */
+
+body.dark {
+  --bg-main: #0f172a;
+  --bg-sidebar: #020617;
+  --bg-box: #020617;
+  --bg-hover: #1e293b;
+  --text-main: #e5e7eb;
+  --text-muted: #94a3b8;
+  --border: #334155;
+  --btn: #3b82f6;
+}
+
+body.light {
+  --bg-main: #f8fafc;
+  --bg-sidebar: #e2e8f0;
+  --bg-box: #ffffff;
+  --bg-hover: #c7d2fe;
+  --text-main: #020617;
+  --text-muted: #475569;
+  --border: #cbd5e1;
+  --btn: #2563eb;
+}
+
+/* =======================
+   APP LAYOUT
+======================= */
+
+.app {
+  height: 100vh;              /* 🔥 full viewport always */
+  display: flex;
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* =======================
+   SIDEBAR
+======================= */
+
+.sidebar {
+  width: 240px;
+  height: 100%;
+  padding: 16px;
+  background: var(--bg-sidebar);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  overflow-y: auto;           /* sidebar scroll only if needed */
+}
+
+.sidebar li {
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: var(--bg-hover);
+}
+
+.sidebar button {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: var(--btn);
+  color: white;
+  cursor: pointer;
+}
+
+.theme-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-main);
+}
+
+/* =======================
+   MAIN CONTENT
+======================= */
+
+.content {
+  flex: 1;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* SMALL TITLE */
+#noteTitle {
+  width: 300px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-box);
+  color: var(--text-main);
+}
+
+/* =======================
+   EDITOR + PREVIEW
+======================= */
+
+.editor-preview {
+  flex: 1;                    /* 🔥 takes remaining height */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  min-height: 0;              /* 🔥 critical for scroll fix */
+}
+
+/* ONLY THESE SCROLL */
+textarea,
+#preview {
+  height: 100%;
+  overflow-y: auto;           /* ✅ internal scroll only */
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-box);
+  color: var(--text-main);
+  font-size: 14px;
+  resize: none;
+}
+
+/* =======================
+   ACTION BUTTONS
+======================= */
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--btn);
+  color: white;
+  cursor: pointer;
+}
